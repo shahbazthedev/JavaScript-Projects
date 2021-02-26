@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.hero {
+    background: #222222;
+  /*   background-image: url(https://source.unsplash.com/2600x1200?city); */
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+  /*   background-color: #eee; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+
+  
+    .hero-headline {
+        margin: 0;
+        color: #F0DB51;
+        font-weight: 400;
+        font-family:'Ramabhadra', sans-serif;
+        font-weight: 500;
+    
+      }
+  
+
+  
+  #pImages {
+      height: 240px;
+      box-shadow: 0 4px 8px 0 rgba(85, 85, 85, 0.2), 0 6px 20px 0 rgba(78, 78, 78, 0.19);
+      transition: transform .3s;
+      position: relative;
+      
+      
+  }
+
+  #pImages:hover{
+      cursor: pointer;
+      transform: scale(1.03); 
+  }
+
+
+  body, html, .container {
+    height: 100%;
+    background-color: #F1F5F8;
+    
+}
+.headingp {
+    font-size: 2rem;
+    font-family:'Ramabhadra', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    text-align: center;
+}
